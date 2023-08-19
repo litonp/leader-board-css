@@ -19,16 +19,26 @@ main {
 
 }
 
+hr {
+    border: 1px solid #d1d1d1;
+}
+
 /* top players style */
+.top-players {
+    margin-bottom: 30px;
+}
+
 .title {
     color: #562EFF;
     font-size: 24px;
+    margin-top: 3px;
 }
 
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-row-gap: 30px;
 }
 
 .player {
@@ -43,4 +53,5 @@ main {
 
 .player-name {
     margin-left: 16px;
+    font-size: 18px;
 }
